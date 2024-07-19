@@ -39,4 +39,3 @@ module Math
 
 end
 
-
