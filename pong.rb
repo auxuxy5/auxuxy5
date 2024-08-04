@@ -73,5 +73,22 @@ on :key_held do |event|
   end
 end
 
+on :controller_axis do |event|
+  case event.axis
+  when :left_y
+    if event.axis == 1
+      left_paddle.y -= 6
+    elsif event.axis == -1
+      left_paddle.y += 6
+    end
+  when :right_y
+    if event.axis == 1
+      right_paddle.y += 6
+    elsif event.axis == -1
+      right_paddle.y -= 6
+    end
+  end
+end
+
 # Show the window
 show

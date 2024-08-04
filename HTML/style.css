@@ -1,0 +1,26 @@
+body{
+  background-color: lightpink;
+}
+h1{
+  color: rgb(255,255,255);
+}
+#p1{
+  background-color:coral;
+  color: white;
+}
+#p2{
+  background-color: cornflowerblue;
+  color: white;
+}
+#p3{
+  background-color: gold;
+  color: white;
+}
+#p4{
+  color: #000;
+  font-family: "consolas",sans-serif;
+}
+
+.styler{
+  font-family: "consolas", sans-serif;
+}
